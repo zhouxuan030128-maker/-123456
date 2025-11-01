@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>这完全是屎</title>
+  <style>
+    html,body{
+      margin:0;padding:0;height:100%;display:flex;
+      align-items:center;justify-content:center;
+      background: linear-gradient(135deg, #002FA7 0%, #001B66 100%);
+      font-family:'Segoe UI',sans-serif;
+    }
+    .box{
+      background:white;padding:40px 60px;border-radius:20px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.2);text-align:center;
+      animation:pop .3s ease;
+    }
+    @keyframes pop{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+    button{
+      margin-top:20px;padding:10px 20px;border:none;
+      border-radius:999px;background:#ff7f8a;color:white;
+      font-weight:600;cursor:pointer;transition:transform .15s;
+    }
+    button:hover{transform:scale(1.1);}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>藍：</h2>
+    <p>栽杆麻</p>
+    <button onclick="alert('骂谁呢🫰🏿')">傻逼</button>
+  </div>
+</body>
+</html>
